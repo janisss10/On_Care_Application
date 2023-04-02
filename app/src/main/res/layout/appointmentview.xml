@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/myclinic"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="?attr/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/mydelete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/minus" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/mydate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/date"
+            android:layout_marginLeft="10dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/mytime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/ic_access_time_black_24dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/mydetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/text"
+            android:layout_marginLeft="10dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+

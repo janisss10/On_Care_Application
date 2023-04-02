@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "686683609204",
+    "project_id": "oncare-application-728d7",
+    "storage_bucket": "oncare-application-728d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686683609204:android:98e0d6f21375770ae85921",
+        "android_client_info": {
+          "package_name": "com.example.oca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686683609204-58slfqbok69rm5iubvmn34t28l7pqjuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLL0NxagzEKkHWDsVVXuSRPWDJsBByjX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686683609204-58slfqbok69rm5iubvmn34t28l7pqjuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

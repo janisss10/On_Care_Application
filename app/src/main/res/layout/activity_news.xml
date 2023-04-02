@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityNews">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health News"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_margin="15dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewHealth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/news"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:visibility="visible"
+            tools:listitem="@layout/news" />
+
+        <TextView
+            android:id="@+id/diabetesTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diabetes News"
+            android:layout_below="@id/recyclerViewHealth"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_margin="15dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewDiabetes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/diabetesTextView"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:visibility="visible"
+            tools:listitem="@layout/news"/>
+
+        <TextView
+            android:id="@+id/bloodPressureTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blood Pressure News"
+            android:layout_below="@id/recyclerViewDiabetes"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_margin="15dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewBloodPressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bloodPressureTextView"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:visibility="visible"
+            tools:listitem="@layout/news"/>
+
+        <ProgressBar
+            android:id="@+id/progbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+</ScrollView>

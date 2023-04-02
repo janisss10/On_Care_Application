@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".WriteRecord">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medication"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#000000"
+            android:textSize="15dp"></TextView>
+
+        <EditText
+            android:id="@+id/medication_med"
+            android:layout_width="200dp"
+            android:hint="Medication Name"
+            android:layout_height="wrap_content"
+            ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Clinic"
+            android:textColor="#000000"
+            android:textSize="15dp"></TextView>
+
+        <EditText
+            android:hint="Clinic Name"
+            android:id="@+id/clinic_med"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+           ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="#000000"
+            android:textSize="15dp"></TextView>
+
+        <EditText
+            android:hint="dd/mm/yy"
+            android:id="@+id/date_med"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+           ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="#000000"
+            android:textSize="15dp"></TextView>
+
+        <EditText
+            android:id="@+id/description_med"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+           ></EditText>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Test"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#000000"
+            android:textSize="15dp"></TextView>
+
+        <EditText
+            android:hint="Test Name"
+            android:id="@+id/test_test"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+           ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Clinic"
+            android:textColor="#000000"
+            android:textSize="15dp"></TextView>
+
+        <EditText
+            android:hint="Clinic Name"
+            android:id="@+id/clinic_test"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+           ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="#000000"
+            android:textSize="15dp"></TextView>
+
+        <EditText
+            android:hint="dd/mm/yy"
+            android:inputType="date"
+            android:focusableInTouchMode="true"
+            android:id="@+id/date_test"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+           ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="#000000"
+            android:textSize="15dp"></TextView>
+
+        <EditText
+            android:id="@+id/description_test"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+           ></EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Record"
+        android:layout_gravity="center"
+        android:id="@+id/save_record"
+        ></Button>
+</LinearLayout>
