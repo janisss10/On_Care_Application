@@ -210,7 +210,7 @@ public class MainPage extends AppCompatActivity {
         chatbotCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainPage.this, FAQ.class);
+                Intent intent = new Intent(MainPage.this, Chatbot.class);
                 startActivity(intent);
             }
         });
