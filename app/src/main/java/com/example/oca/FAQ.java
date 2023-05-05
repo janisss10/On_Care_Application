@@ -33,7 +33,7 @@ public class FAQ extends AppCompatActivity {
         chatbot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(FAQ.this, Answers.class);
+                Intent intent = new Intent(FAQ.this, Chatbot.class);
                 startActivity(intent);
             }
         });
