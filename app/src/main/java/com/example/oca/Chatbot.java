@@ -17,7 +17,7 @@ public class Chatbot extends AppCompatActivity {
         setContentView(R.layout.activity_chatbot);
         webView = (WebView) findViewById(R.id.webview);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://www.google.com");
+        webView.loadUrl("http://www.google.com"); //get the URL from Thisha
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
