@@ -53,3 +53,11 @@ dependencies {
     //implementation 'com.github.denzcoskun:ImageSlideshow:0.0.6'
     implementation 'com.google.firebase:firebase-database:20.1.0'
 }
+    /*
+    implementation ('com.google.cloud:google-cloud-dialogflow:4.24.0') {
+        exclude group: 'com.google.api.grpc'
+        exclude group: 'com.google.protobuf'
+    }
+}
+configurations.implementation.exclude(group: 'com.google.firebase', module: 'protolite-well-known-types')
+     */

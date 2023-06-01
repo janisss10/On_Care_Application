@@ -186,7 +186,7 @@ public class MainPage extends AppCompatActivity {
         testResultCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainPage.this, MedicalRecord.class);
+                Intent intent = new Intent(MainPage.this, MedicalRecordPassword.class);
                 startActivity(intent);
             }
         });
