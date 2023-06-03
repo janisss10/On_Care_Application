@@ -17,7 +17,7 @@ public class Chatbot extends AppCompatActivity {
         setContentView(R.layout.activity_chatbot);
         webView = (WebView) findViewById(R.id.webview);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://www.google.com"); //get the URL from Thisha
+        webView.loadUrl("https://dialogflow.cloud.google.com/cx/projects/oncareapplication/locations/us-central1/agents/594eb01b-5aea-4d7c-afd3-491f845fd635/flows/00000000-0000-0000-0000-000000000000/flow_creation");
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);

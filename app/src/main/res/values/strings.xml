@@ -15,8 +15,8 @@
     <string name="heading_eight">Profile</string>
 
     //Description for Sliding Page
-    <string name="desc_one">In the Journal section, there are 4 subsections for blood pressure and glucose level monitoring, BMI calculator, and FAQs.</string>
-    <string name="desc_two">Based on the inputs in the Journal section, there will be a customised list of food to eat and avoid, as well as food recipes to learn from.</string>
+    <string name="desc_one">In the Journal section, there are 4 subsections: blood pressure and glucose level monitoring, BMI calculator, and FAQs.</string>
+    <string name="desc_two">Based on the inputs in the Journal section, there will be a customised list of food to eat and avoid, as well as food recipes suggestions to try.</string>
     <string name="desc_three">A secured and organised way to store and manage your personal medical records.</string>
     <string name="desc_four">A convenient way to book appointment at preferred clinic.</string>
     <string name="desc_five">Access to relevant and up-to-date information on general health, diabetes, and blood pressure.</string>
